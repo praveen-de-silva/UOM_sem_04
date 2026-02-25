@@ -12,6 +12,8 @@ print(df.info())
 # print(df.isnull().sum())
 # print(df.shape)
 
+# df[""]
+
 # --- Simple Cleaning ---
 df = df.dropna() 
 # print(df.shape)
