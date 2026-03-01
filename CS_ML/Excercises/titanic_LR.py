@@ -26,7 +26,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # --- Model ---
 # print(X, )
-model = LogisticRegression(max_iter=4000)
+model = LogisticRegression(max_iter=4000) # Accuracy :  0.7027027027027027
 model.fit(X_train, y_train)
 
 # --- Test ---
