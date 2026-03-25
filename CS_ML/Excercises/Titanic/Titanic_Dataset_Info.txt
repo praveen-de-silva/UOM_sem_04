@@ -1,0 +1,21 @@
+========================
+    TITANIC DATA SET
+========================
+
+initial shape = (891, 12)
+
+info:
+ 0   PassengerId  891 non-null    int64
+ 1   Survived     891 non-null    int64
+ 2   Pclass       891 non-null    int64
+ 3   Name         891 non-null    str
+ 4   Sex          891 non-null    str
+ 5   Age          714 non-null    float64
+ 6   SibSp        891 non-null    int64
+ 7   Parch        891 non-null    int64
+ 8   Ticket       891 non-null    str
+ 9   Fare         891 non-null    float64
+ 10  Cabin        204 non-null    str
+ 11  Embarked     889 non-null    str
+
+
