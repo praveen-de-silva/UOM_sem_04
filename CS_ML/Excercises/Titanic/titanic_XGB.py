@@ -19,11 +19,16 @@ df = pd.read_csv("./Inputs/titanic_train.csv")
 # print(df.shape)
 # print(df.info())
 
-# corr = df.corr()
+
 # sns.heatmap(corr, annot=True)
 
-df = df.drop(["Cabin"], axis=1)
-df = pd.get_dummies(df, drop_first=True)
+
+
+df = df.drop(["Pclass", "Ticket", "Cabin"], axis=1)
+df = pd.get_dummies(df, columns=["Sex", "Embarked",  "Name"], drop_first=True)
+
+corr = df.corr()["Survived"].abs().sort_values(ascending=False)
+print(corr)
 
 # print(df.shape)
 
