@@ -1,0 +1,19 @@
+let isPalindrome n = 
+    let rec reverse num acc =
+        if num == 0 then acc
+        else reverse (num / 10) (acc * 10 + num % 10)
+    in
+    n == reverse n
+
+let displayPalindromes lower upper =
+    let rec loop current =
+        if current > upper then
+            'Done'
+        else if isPalindrome current then
+            current :: loop (current + 1)
+        else
+            loop (current + 1)
+    in
+    loop lower
+
+displayPalindromes 1 100

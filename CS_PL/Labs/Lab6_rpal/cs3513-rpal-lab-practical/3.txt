@@ -1,0 +1,10 @@
+let fib n = 
+    if n <= 0 then [] 
+    else 
+        let rec fibHelper a b count =
+            if count = 0 then []
+            else a :: fibHelper b (a + b) (count - 1)
+        fibHelper 0 1 n
+
+let upperLimit = 10 in
+fib upperLimit

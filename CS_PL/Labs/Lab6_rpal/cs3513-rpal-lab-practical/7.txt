@@ -1,0 +1,2 @@
+let n = 5 in
+if n mod 2 == 0 then 'Even' else 'Odd'

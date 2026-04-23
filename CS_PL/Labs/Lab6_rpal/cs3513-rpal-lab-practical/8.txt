@@ -1,0 +1,7 @@
+let n = 10 in
+let sum = 0 in
+while n > 0 do
+    sum := sum + n;
+    n := n - 1
+end;
+sum

@@ -1,0 +1,10 @@
+let isPalindrome n = 
+    let reverseNum x = 
+        let rec helper y acc = 
+            if y == 0 then acc 
+            else helper (y / 10) (acc * 10 + y mod 10)
+        helper x 0
+    n == reverseNum n
+
+let number = 121 in
+isPalindrome number -> 'Yes' | 'No'

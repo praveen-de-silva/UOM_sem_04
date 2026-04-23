@@ -1,0 +1,7 @@
+let factorial n = 
+    if n gr 1 then 
+        n * factorial (n - 1) 
+    else 
+        1 
+in 
+factorial 5

@@ -1,0 +1,9 @@
+let a = 5 in
+let b = 10 in
+let c = 3 in
+if a gr b then
+    if a gr c then a
+    else c
+else
+    if b gr c then b
+    else c
