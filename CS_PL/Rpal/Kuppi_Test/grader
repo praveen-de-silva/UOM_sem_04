@@ -1,7 +1,8 @@
 let getGrade marks = 
-    (marks > 100) or (marks < 0) -> 'invalid input'
+    not (Isinteger marks) -> 'Please enter an Integer'
+    | (marks > 100) or (marks < 0) -> 'invalid input'
     | marks >= 75 -> 'A'
     | marks >= 65 -> 'B'
     | marks >= 50 -> 'C'
     | 'F'
-// in  Print (getGrade (-189))
+in  Print (getGrade (89))

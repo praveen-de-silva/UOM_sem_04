@@ -1,0 +1,9 @@
+let findMax a b c =
+    (Isinteger a) & (Isinteger b) & (Isinteger c) ->
+        a > b -> 
+            a > c -> a | c
+        | 
+            b > c -> b | c
+    |
+        Print 'Error'
+in Print(findMax 2 4 6, findMax 4 '6' 2, findMax 6 4 2)

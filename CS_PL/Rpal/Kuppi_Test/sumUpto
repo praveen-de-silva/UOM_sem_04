@@ -1,0 +1,6 @@
+let rec SumUptoSeries a b =
+    a > b -> nil
+    | (SumUptoSeries (a+1) b, Print ' ', Print (SumUpto a))
+where rec SumUpto n =
+    n eq 0 -> 0 | n + SumUpto (n-1)
+in SumUptoSeries 3 10
