@@ -1,0 +1,6 @@
+let num = -5
+in Print (
+    num gr 0 -> 'Positive' |
+    num ls 0 -> 'Negative' |
+    'Zero'
+)
