@@ -7,3 +7,4 @@ let findMax a b c =
     |
         Print 'Error'
 in Print(findMax 2 4 6, findMax 4 '6' 2, findMax 6 4 2)
+
