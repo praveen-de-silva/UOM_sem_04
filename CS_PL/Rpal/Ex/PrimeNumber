@@ -6,4 +6,3 @@ where rec hasNoDiv n m =
     | n eq (n / m) * m -> false
         | hasNoDiv n (m-1)
 in Print (isPrime 2)
-        

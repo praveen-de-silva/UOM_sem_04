@@ -1,0 +1,6 @@
+let isPerfSqr n = isPerfSqrRec n 1
+where rec isPerfSqrRec n i = 
+    n eq i**2 -> true
+    | n < i**2 -> false
+    | isPerfSqrRec n (i+1)
+in Print (isPerfSqr 12)

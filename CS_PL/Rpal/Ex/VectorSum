@@ -1,0 +1,4 @@
+let rec vectSum (A, B, i) = 
+    i eq 0 -> nil
+    | (vectSum (A, B, (i-1)) aug (A i + B i))
+in Print (vectSum ((1,2), (3,4), 2))
