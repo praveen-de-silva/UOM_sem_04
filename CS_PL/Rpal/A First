@@ -1,0 +1,5 @@
+Ubuntu CMD code for test RPAL:
+silva@LAPTOP-C8V994UJ:/mnt/c/Users/ASUS/Desktop/rpal-0.2.0-rc1/rpal-0.2.0-rc1$ ./rpal -r /mnt/c/Users/ASUS/Desktop/Sem04/Coding/sem04_Codes/UOM_sem_04/CS_PL/Rpal/Kuppi_Test/test1
+
+python_project :
+python "C:\Users\ASUS\Desktop\Sem04\Coding\sem04_Codes\UOM_sem_04\CS_PL\RPAL-Project\myrpal.py" "test1"

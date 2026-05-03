@@ -1,0 +1,5 @@
+Print ('Hello' eq 'Hello') // Output: true
+Print ('Hello' ne 'World') // Output: true
+
+// Conc ST 
+Print ('Hi' concat 'There') // Output: HiThere

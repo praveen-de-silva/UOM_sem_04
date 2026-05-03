@@ -1,0 +1,14 @@
+let rec palSeries a b = 
+    a > b -> 
+        nil
+    |   
+        isPal a ->
+            (palSeries (a+1) b, Print ' ', Print a)
+        |
+            palSeries (a+1) b
+where isPal num =
+    num eq (reverse_helper num 0) -> true | false
+where rec reverse_helper n rev =
+    n eq 0 -> rev
+    | reverse_helper (n / 10) (rev * 10 + (n - (n / 10) * 10))
+in palSeries 1 300

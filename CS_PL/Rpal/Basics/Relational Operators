@@ -1,0 +1,14 @@
+// Print (4 eq 4)     // Output: true  (Equal: සමානද)
+// Print (4 ne 5)     // Output: true  (Not Equal: අසමානද)
+
+// Print (5 gr 3)     // Output: true  (Greater: විශාලද)
+// Print (5 > 3)      // Output: true  (gr හා සමානයි)
+
+// Print (2 ls 5)     // Output: true  (Less: කුඩාද)
+// Print (2 < 5)      // Output: true  (ls හා සමානයි)
+
+// Print (4 ge 4)     // Output: true  (Greater or Equal: විශාල හෝ සමානද)
+// Print (4 >= 4)     // Output: true  (ge හා සමානයි)
+
+// Print (3 le 5)     // Output: true  (Less or Equal: කුඩා හෝ සමානද)
+// Print (3 <= 5)     // Output: true  (le හා සමානයි)

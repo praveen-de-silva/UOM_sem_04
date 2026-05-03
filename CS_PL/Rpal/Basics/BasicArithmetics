@@ -1,0 +1,7 @@
+// Print (2 + 4)      // Output: 6
+// Print (2 - 4)      // Output: -2
+// Print (2 * 4)      // Output: 8
+// Print (12 / 3)     // Output: 4
+// Print (0 / 3)      // Output: 0
+// Print (2 ** 4)     // Output: 16  
+// Print (neg 4)      // Output: -4  

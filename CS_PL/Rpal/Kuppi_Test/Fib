@@ -1,0 +1,4 @@
+let rec fib n = 
+    (n eq 0) or (n eq 1) -> n
+    | n + fib (n-1) + fib (n-2)
+in Print (fib (20))

@@ -1,0 +1,8 @@
+let rec reverse_helper n rev =
+    n eq 0 -> rev
+    | reverse_helper (n / 10) (rev * 10 + (n - (n / 10) * 10))
+in 
+let reverse n = 
+    reverse_helper n 0
+in
+Print (reverse 123)

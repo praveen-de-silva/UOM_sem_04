@@ -1,0 +1,14 @@
+// Method : 01
+
+// let rec getListSum T i sum = 
+//     i gr Order T -> sum
+//     | getListSum T (i+1) (sum + (T i))
+// in Print(getListSum (10, 20, 30) 0 0)
+
+// Method : 02
+
+let getListSum T = getListSumRec T 0
+    where rec getListSumRec T i = 
+        i gr Order T -> 0
+        | (T i) + getListSumRec T (i+1)
+in Print(getListSum (10, 20, 30))

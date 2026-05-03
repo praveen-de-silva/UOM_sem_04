@@ -1,0 +1,6 @@
+let isPal num =
+    num eq (reverse_helper num 0)
+where rec reverse_helper n rev =
+    n eq 0 -> rev
+    | reverse_helper (n / 10) (rev * 10 + (n - (n / 10) * 10))
+in Print (isPal 121)
